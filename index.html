@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Food</title>
+    <!-- Website Icon -->
+    <link rel="icon" href="./public/images/skyfood-1-white-1.png" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="./Static/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./Static/CSS/style.css" />
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="./Static/Bootstrap/css/bootstrap.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- frist Sec -->
+      <div class="home_page">
+        <div id="HomePageIMG">
+          <img id="HomePageIMG" src="./public/images/homeback434.JPG" alt="" />
+          <video
+            id="HomePageIMG2"
+            src="./public/images/MVI_9362.MP4"
+            muted
+            loop
+            autoplay
+          ></video>
+          <div class="overlay"></div>
+        </div>
+
+        <br /><br />
+        <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="./">
+              <img
+                style="width: 109px; height: 64px; flex-shrink: 0"
+                src="./public/images/SKY FOOD 1mainLogo.png"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="border: none !important"
+            >
+              <img src="./public/images/vectortoglle343.svg" alt="" />
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="nav_item" class="navbar-nav m-auto mb-lg-0">
+                <li id="Home_rout" class="nav-item activation ms-5">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home
+                    <p></p
+                  ></a>
+                </li>
+
+                <li id="Company_rout" class="nav-item dropdown ms-5">
+                  <a
+                    id="dsdsdsd23"
+                    class="nav-link dropdown-toggle"
+                    href="./ourcampany.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Company
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li id="Company_rout2" class="dropdown-item">
+                      <a class="dropdown-item" href="./ourcampany.html"
+                        >Our Company
+                        <p></p
+                      ></a>
+                    </li>
+
+                    <li class="dropdown-item" id="Food_rout">
+                      <a class="dropdown-item" href="./food.html"
+                        >Food Safety
+                        <p></p
+                      ></a>
+                    </li>
+
+                    <li class="dropdown-item" id="Innvation_rout">
+                      <a class="dropdown-item" href="./innvation.html"
+                        >Innvation
+                        <p></p
+                      ></a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li id="Brands_rout" class="nav-item ms-5">
+                  <a class="nav-link" href="./brands.html"
+                    >Our Brands
+                    <p></p
+                  ></a>
+                </li>
+
+                <li id="News_rout" class="nav-item ms-5">
+                  <a class="nav-link" href="./news.html"
+                    >News
+                    <p></p
+                  ></a>
+                </li>
+
+                <li id="Contact_rout" class="nav-item ms-5">
+                  <a class="nav-link" href="./contact.html"
+                    >Contact Us
+                    <p></p
+                  ></a>
+                </li>
+              </ul>
+              <form id="searchForm" class="" role="search">
+                <div>
+                  <img
+                    id="searchicon"
+                    src="./public/images/iconsax-linear-searchnormal-1.svg"
+                    alt=""
+                  />
+                  <button id="login_btn" type="submit">Login</button>
+                </div>
+                <input
+                  id="search_input"
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="center_text">
+          <h1>
+            <a
+              href=""
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "A World of Flavor and Commitment",
+                "A World of Flavor and Commitment",
+                 "A World of Flavor and Commitment",
+                 "A World of Flavor and Commitment" ]'
+            >
+              <span class="wrap"></span>
+            </a>
+          </h1>
+
+          <p class="hidddentop">
+            At SkyFood, we are proud owners of some of the most beloved food
+            brands that bring joy to people's lives. Our passion for excellence
+            and unwavering commitment to quality shine through in every product
+            we create.
+          </p>
+        </div>
+        <div class="skycirclelogo">
+          <img
+            class="hidddenbutton"
+            id="HomePageLogoIMG"
+            src="./public/images/SKY FOOD 1mainLogo.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- second sec -->
+      <div class="second_sec">
+        <h1 id="OurBrands">Our Brands</h1>
+        <br /><br /><br /><br />
+        <div class="container row m-auto gap-5">
+          <a
+            id="card_det"
+            class="card col hidddenright"
+            href="./skyCheese.html"
+          >
+            <img
+              style="height: 150px"
+              src="./public/images/my-project-1212.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div id="card_info" class="card-body">
+              <h5 class="card-title">Sky Cheese</h5>
+              <p class="card-text">
+                SkyCheese is not just a cheese brand; it inspires culinary
+                creativity. With SkyCheese, you can elevate your cooking and
+                explore a world of delightful recipes. From gourmet dishes to
+                everyday favorites, SkyCheese adds a touch of elegance and
+                flavor to any meal.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="./syrianGourmet.html"
+            id="card_det"
+            class="card col hidddenbutton"
+          >
+            <img
+              style="height: 150px"
+              src="./public/images/logo-white-2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div id="card_info2" class="card-body">
+              <h5 class="card-title">Syrian Gourmet</h5>
+              <p class="card-text">
+                Syrian Gourmet is a line of homemade products using the art of
+                traditional food preparation. It only uses natural ingredients
+                and is produced with the utmost respect of traditions.
+              </p>
+            </div>
+          </a>
+
+          <a href="./Yassou.html" id="card_det" class="card col hidddenleft">
+            <img
+              style="height: 150px"
+              src="./public/images/yassou-hfghfghflogo-2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div id="card_info3" class="card-body">
+              <h5 class="card-title">Yassou</h5>
+              <p class="card-text">
+                Yassou Cheese offers a wide range of high-quality cheeses,
+                carefully crafted to provide an exquisite taste experience. Each
+                cheese is expertly made using traditional methods and the finest
+                ingredients, ensuring superior flavor and texture.
+              </p>
+            </div>
+          </a>
+        </div>
+        <br /><br /><br /><br />
+      </div>
+
+      <!-- third sec -->
+      <div id="Third_sec">
+        <div
+          id="Third_Sec_info"
+          class="container row m-auto d-flex align-items-center"
+        >
+          <div
+            class="col-lg-6 col-md-6 col-12 mb-5 hidddenright"
+            id="frist_half"
+          >
+            <img id="people_img" src="./public/images/container.png" alt="" />
+            <img id="sec_img" src="./public/images/cow-normal-11.png" alt="" />
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-12 hidddenleft"
+            style="text-align: center"
+          >
+            <h1 id="third_tit">A World of Flavor and Commitment</h1>
+            <br />
+            <p id="third_tex">
+              At SkyFood, we are proud owners of some of the most beloved food
+              brands that bring joy to people's lives. Our passion for
+              excellence and unwavering commitment to quality shine through in
+              every product we create.
+            </p>
+            <br />
+            <button
+              style="
+                border-radius: 6px;
+                background: var(--green-shade, #4d775f);
+                padding: 12px 24px;
+                color: #fff;
+                font-family: Roboto;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                border: none;
+              "
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+
+      <!-- fourth sec -->
+      <div>
+        <div
+          id="forth_Sec_info"
+          class="container row m-auto d-flex align-items-center"
+        >
+          <div class="hidddentop" id="four_fristHalf">
+            <h1>Meet our Brands</h1>
+            <p style="width: 50%; margin: auto">
+              Each brand under the SkyFood umbrella is crafted with utmost care
+              and dedication to bring you exceptional taste and quality. From
+              the creamy indulgence of SkyCheese to the authentic flavors of
+              Syrian Gourmet and the refined elegance of Yassou, SkyFood brands
+              aim to delight your taste buds and elevate your culinary journey.
+            </p>
+            <br />
+            <button
+              style="
+                border-radius: 6px;
+                background: var(--green-shade, #4d775f);
+                padding: 12px 24px;
+                color: #fff;
+                font-family: Roboto;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                border: none;
+              "
+            >
+              See All
+            </button>
+          </div>
+          <div class="mt-5" id="four_secondHalf">
+            <div id="fourth_card_det" class="hidddenleft">
+              <img
+                src="./public/images/image-containgserhbgfdh-65.png"
+                class="card-img"
+                alt="..."
+              />
+            </div>
+
+            <div id="fourth_card_det" class="hidddenright">
+              <img
+                src="./public/images/loghfghggo-1.png"
+                class="card-img"
+                alt="..."
+              />
+            </div>
+            <div id="fourth_card_det" class="hidddenright">
+              <img
+                src="./public/images/image-cdhfhdfhdontainer.png"
+                class="card-img"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+      <br /><br />
+      <!-- fifth sec -->
+      <div>
+        <div>
+          <div
+            id="controlling"
+            class="container d-flex justify-content-between align-items-center"
+          >
+            <div><h1>News</h1></div>
+            <div class="buttons">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="next"
+                id="prev"
+              >
+                <img src="./public/images/group-3left.svg" alt="" />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev"
+                id="next"
+              >
+                <img src="./public/images/group-3right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            id="carouselExampleFade"
+            class="container carousel slide carousel-fade"
+          >
+            <div class="carousel-inner">
+              <div
+                style="height: 700px"
+                class="carousel-item active d-flex row ps-4 mt-5"
+              >
+                <div
+                  id="content_img"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenright"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerrrr.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img2"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddentop"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containermmm.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Multiple users</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img3"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenleft"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerlll.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item d-flex row ps-4 mt-5">
+                <div
+                  id="content_img"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenright"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containermmm.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Multiple users</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img2"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddentop"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerlll.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img3"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenleft"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerrrr.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item d-flex row ps-4 mt-5">
+                <div
+                  id="content_img"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenright"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerlll.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Multiple users</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img2"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddentop"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containerrrr.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="content_img3"
+                  class="col-lg-3 col-md-3 col-xsm-12 col-sm-12 col-12 m-auto mt-3 hidddenleft"
+                >
+                  <img
+                    id="fsadfdsfr52"
+                    src="./public/images/containermmm.png"
+                    alt="..."
+                  />
+                  <div class="frist_img_con_tex">
+                    <p>Desktop app</p>
+                    <div>
+                      Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                      semper dalaracc lacus vel facilisis.
+                    </div>
+                    <button>
+                      Learn more
+                      <img
+                        src="./public/images/line-rounded-arr98iow-right.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+      <br /><br /><br /><br />
+      <!-- footer -->
+      <div id="footer">
+        <br /><br /><br />
+
+        <div id="space_e22" style="display: flex; justify-content: center">
+          <img
+            style="width: 152px; height: 89px; flex-shrink: 0"
+            src="./public/images/SKY FOOD 1mainLogo.png"
+            alt=""
+          />
+        </div>
+        <br />
+        <div class="container m-auto row">
+          <ul
+            class="col-lg-3 col-md-3 col-sm-6 col-12"
+            style="
+              color: var(--main-green, #0b6532);
+              font-family: Poppins;
+              font-size: 10px;
+              font-style: normal;
+              line-height: normal;
+            "
+          >
+            At SkyFood, we are passionate about creating food experiences that
+            delight and inspire. As a food manufacturing company, we take
+            immense pride in our diverse portfolio of brands that offer a world
+            of flavor and commitment to our customers.
+          </ul>
+          <ul class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <li><h6>Company Profile</h6></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Our Company</a></li>
+            <li><a href="">Our Brands</a></li>
+          </ul>
+          <ul class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <li><h6>Our Company</h6></li>
+            <li><a href="">Food Safety</a></li>
+            <li><a href="">Innovation</a></li>
+          </ul>
+          <ul class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <li><h6>Contact Us</h6></li>
+            <li><a href="">Airport Road, 4th Bridge,Damascus,Syria</a></li>
+            <li>
+              <a href="">
+                <img src="./public/images/group-1.svg" alt="" />
+                info@skyfood.com</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <img src="./public/images/solar-phone-outline.svg" alt="" />+963
+                989 223 333</a
+              >
+            </li>
+            <li>
+              <br />
+              <a href="">
+                <img src="./public/images/vector.svg" alt="" />
+                <img
+                  style="margin-left: 15px"
+                  src="./public/images/entypo-social-linkedin-with-circle.svg"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Font Awesome JS -->
+    <script src="./Static/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <!-- JS File -->
+    <script src="./Static/JS/app.js"></script>
+    <!-- Bootstrap file-->
+    <script src="./Static/Bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+ 
